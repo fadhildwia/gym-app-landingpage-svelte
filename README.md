@@ -1,38 +1,64 @@
-# create-svelte
+<h1 align="center">Gym Landing Page</h1>
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+<p align="center">This project is a website that displays a Landing Page for a Gym using Svelte</p>
 
-## Creating a project
+---
 
-If you're seeing this, you've probably already done this step. Congrats!
+<br>
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+### Detail
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+<h1 align="center">
+  <img alt="MovieApps" title="MovieApps" src="./github/home.png" height="425" />
+  <img alt="MovieApps" title="MovieApps" src="./github/full.gif" height="425" />
+</h1>
 
-## Developing
+## 📱 Features
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- Create a layout using Tailwindcss
+- Responsive website
+- Built with Svelte framework
 
-```bash
-npm run dev
+## 🚀 Technologies & Resources
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- [x] [Svelte](https://svelte.dev/docs/introduction)
+- [x] [Tailwindcss](https://tailwindcss.com/docs/installation)
 
-## Building
+## 💻 Installation
 
-To create a production version of your app:
+1. #### Clone the repository:
 
-```bash
-npm run build
-```
+   ```bash
+   git clone https://github.com/fadhildwia/gym-app-landingpage-svelte.git
+   ```
 
-You can preview the production build with `npm run preview`.
+2. #### Navigate to the project directory:
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+   ```bash
+   cd gym-app-landingpage-svelte
+   ```
+
+3. #### Install the dependencies:
+   ```bash
+   yarn
+   #or
+   npm install
+   ```
+4. #### Run the project:
+   ```bash
+   yarn dev
+   #or
+   npm run dev
+   # or start the server and open the app in a new browser tab
+   npm run dev -- --open
+   ```
+
+<!-- ## License
+
+This example application is licensed under the [MIT License](LICENSE).
+
+--- -->
+
+---
+
+Feel free to explore the code and adapt it to suit your needs! If you encounter any issues or have suggestions for improvements, please don't hesitate to open an issue or submit a pull request.
