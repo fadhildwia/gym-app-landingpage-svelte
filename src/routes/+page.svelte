@@ -6,6 +6,10 @@
   import Conversion from "../components/Conversion.svelte"
 </script>
 
+<svelte:head>
+    <title>Swoley Moley</title>
+</svelte:head>
+
 <main class="flex flex-col">
   <Hero />
   <Product />
